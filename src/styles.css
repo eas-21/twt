@@ -1,1 +1,185 @@
 /* You can add global styles to this file, and also import other style files */
+.featured-services {
+    padding: 20px 0;
+  }
+  
+  .featured-services .icon-box {
+    padding: 20px;
+  }
+  
+  .featured-services .icon-box-bg {
+    background-image: linear-gradient(0deg, #551d1d 0%, #2f2f2f 50%, #222222 100%);
+  }
+  
+  .featured-services .icon {
+    margin-bottom: 15px;
+  }
+  
+  .featured-services .icon i {
+    color: #5cb874;
+    font-size: 42px;
+  }
+  
+  .featured-services .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .featured-services .title a {
+    color: #222222;
+    transition: 0.3s;
+  }
+  
+  .featured-services .icon-box:hover .title a {
+    color: #5cb874;
+  }
+  
+  .featured-services .description {
+    line-height: 24px;
+    font-size: 14px;
+  }
+
+  section {
+    padding: 30px 0;
+  }
+  
+  .section-bg {
+    background-color: #f8fcf9;
+  }
+  
+  .section-title {
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+  }
+  
+  .section-title h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+  }
+  
+  .section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #5cb874;
+    bottom: 0;
+    left: calc(50% - 20px);
+  }
+  
+  .section-title p {
+    margin-bottom: 2px;
+    font-size: 18px;
+    color: #919191;
+    padding-bottom: 20px;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .column {
+    flex: 25%;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 992px) {
+    .column {
+      flex: 50%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+  .services .icon-box {
+      text-align: center;
+      border-radius: 2px;
+      padding: 50px 20px 20px 20px;
+      margin:5px;
+      transition: all ease-in-out 0.3s;
+      background: #fff;
+      box-shadow: 0px 5px 90px 0px rgba(11, 39, 56, 0.1);
+    }
+    
+    .services .icon-box .icon {
+      margin: 0 auto;
+      width: 50px;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: ease-in-out 0.3s;
+      position: relative;      
+    }
+    
+    .services .icon-box .icon i {
+      font-size: 36px;
+      transition: 0.5s;
+      position: relative;
+    }
+    
+    .services .icon-box .icon svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    
+    .services .icon-box .icon svg path {
+      transition: 0.5s;
+      
+    }
+    
+    .services .icon-box h4 {
+      font-weight: 600;
+      margin: 10px 0 15px 0;
+      font-size: 22px;
+    }
+    
+    .services .icon-box h4 a {
+      color: #222222;
+      transition: ease-in-out 0.3s;
+    }
+    
+    .services .icon-box p {
+      line-height: 24px;
+      font-size: 14px;
+      margin-bottom: 0;
+    }
+    
+    .services .icon-box:hover {
+      border-color: #fff;
+      box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+    }
+    
+    
+    
+    .bold{
+        font-weight: bold ;
+        padding-top: 20px;
+      }
+      .main-section {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        background: #ffffff;
+      }
