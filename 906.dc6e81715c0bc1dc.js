@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktwt=self.webpackChunktwt||[]).push([[906],{906:(c,u,e)=>{e.r(u),e.d(u,{TwtServicesModule:()=>r});var o=e(895),l=e(322),n=e(256);let r=(()=>{class t{}return t.\u0275fac=function(a){return new(a||t)},t.\u0275mod=n.oAB({type:t}),t.\u0275inj=n.cJS({imports:[o.ez,l.Bz]}),t})()}}]);
