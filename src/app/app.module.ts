@@ -8,6 +8,7 @@ import { HomeComponent } from './core/home/home.component';
 import { TwtServicesComponent } from './core/twt-services/twt-services.component';
 import { ScrollToTopComponent } from './shared/scroll-to-top/scroll-to-top.component';
 import { IotComponent } from './core/twt-services/iot/iot.component';
+import { ContactsComponent } from './core/contacts/contacts.component';
 
 @NgModule({
   schemas: [
@@ -18,7 +19,7 @@ import { IotComponent } from './core/twt-services/iot/iot.component';
     AdminLayoutComponent,
     HomeComponent,
     TwtServicesComponent,
-    ScrollToTopComponent,IotComponent
+    ScrollToTopComponent,IotComponent, ContactsComponent
   ],
   imports: [
     BrowserModule,
