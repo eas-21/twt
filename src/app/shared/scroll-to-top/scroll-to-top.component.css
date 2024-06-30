@@ -4,7 +4,8 @@
     right: 15px;
     opacity: 0;
     transition: all .2s ease-in-out;
-    background-color: #302f2f;
+    background-color: #88b44e;
+    border-color: #88b44e;
     border-radius: 50%;
     color: #ffffff;
     border: none;

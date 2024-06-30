@@ -1,7 +1,6 @@
 .flex-container {
   display: flex;
-
-  background-color: #27223f;
+  background-color: #173239;
   width: 1350px;
 }
 .flex-container1 {
@@ -10,18 +9,19 @@
   width: 1350px;
 }
 .container1{
-  background-color: #27223f;
+  background-color: #173239;
   width: 1350px;
   padding: 50px 150px;
 }
 .flex-item-left {
-  background-color: #27223f;
+  background-color: #173239;
   padding: 10px;
   flex: 30%;
 }
 
 .flex-item-right {
-  background-color: #27223f;
+  /* background-color: #27223f; */
+  background-color: #173239;
   padding: 30px;
   flex: 70%;
   flex-wrap: wrap;

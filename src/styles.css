@@ -1,8 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+* { box-sizing: border-box }
+[outlines], [outlines] * { outline: 1px solid hotpink }
+body { margin: 0; padding: 1rem; min-height: 50vh; display: grid; place-items: center; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
+
 .featured-services {
     padding: 20px 0;
   }
-  
+  .featured-services section-title p {
+    font-size: 16px;
+      color: #919191;
+      padding-bottom: 10px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
   .featured-services .icon-box {
     padding: 20px;
   }
@@ -161,9 +170,13 @@
     }
     
     .services .icon-box p {
-      line-height: 24px;
       font-size: 14px;
       margin-bottom: 0;
+      color: #919191;
+    line-height: 28px;
+    }
+    .sbox .container p{
+      color: #919191;
     }
     
     .services .icon-box:hover {

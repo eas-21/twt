@@ -9,6 +9,7 @@ import { TwtServicesComponent } from './core/twt-services/twt-services.component
 import { ScrollToTopComponent } from './shared/scroll-to-top/scroll-to-top.component';
 import { IotComponent } from './core/twt-services/iot/iot.component';
 import { ContactsComponent } from './core/contacts/contacts.component';
+import { Routes, RouterModule } from '@angular/router';
 
 @NgModule({
   schemas: [
@@ -24,6 +25,8 @@ import { ContactsComponent } from './core/contacts/contacts.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    RouterModule,
+    BrowserAnimationsModule,
     
   ],
   providers: [],
